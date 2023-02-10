@@ -1,0 +1,15 @@
+{
+  "name": "clase1",
+  "version": "1.0.0",
+  "description": "primer proyecto que usara dependencias de terceros",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "freddy tomada",
+  "license": "ISC",
+  "dependencies": {
+    "progress": "^2.0.3",
+    "readline-sync": "^1.4.10"
+  }
+}

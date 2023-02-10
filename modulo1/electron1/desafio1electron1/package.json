@@ -1,0 +1,14 @@
+{
+  "name": "desafio1electron1",
+  "version": "1.0.0",
+  "description": "desafio 1 de electron 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Freddy Tomada",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
