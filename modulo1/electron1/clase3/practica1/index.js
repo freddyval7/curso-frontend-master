@@ -1,3 +1,4 @@
-document.getElementById("saludar").onclick = ()=>{
-    console.log("hola")
+
+document.getElementById("saludar").onclick=()=>{
+    console.log("hola mundo")
 }
