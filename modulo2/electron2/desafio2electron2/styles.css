@@ -1,0 +1,26 @@
+*{
+    font-family: Georgia;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ancla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 3em;
+}
+
+.ancla a{
+    cursor: pointer;
+    color: tomato;
+}

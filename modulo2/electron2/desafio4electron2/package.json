@@ -1,0 +1,30 @@
+{
+  "name": "desafio4electron2",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "Desafio4_Electron2",
+    "extraResources": ["icono.ico","./usuarios/*.png"],
+    "win": {
+      "target": "nsis",
+      "icon": "resources/big-logo.png"
+    },
+    "nsis":{
+      "oneClick" :false,
+      "installerIcon":"icono.ico"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0"
+  }
+}

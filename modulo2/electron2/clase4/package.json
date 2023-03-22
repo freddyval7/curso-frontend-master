@@ -1,0 +1,32 @@
+{
+  "name": "clase4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "Clase_4_Electron_nivel_2",
+    "extraResources": ["youtube.ico","logo.ico" ],
+    "win": {
+      "target": "nsis",
+      "icon": "resources/big-logo.png"
+    },
+    "nsis":{
+      "oneClick" :false,
+      "installerIcon":"logo.ico",
+      "license" : "licencia.txt",
+      "createDesktopShortcut":false
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0"
+  }
+}

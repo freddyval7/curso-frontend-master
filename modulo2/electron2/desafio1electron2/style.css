@@ -1,0 +1,11 @@
+div{
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+span{
+    display: none;
+}
